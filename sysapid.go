@@ -32,10 +32,10 @@ func main() {
 	hostname, _ := os.Hostname()
 	switch hostname {
 		case "raspberrypi":
-			router.Run("127.0.0.0:8080")	// Change to fit your needs ("hides" from other devices on network)
+			router.Run("127.0.0.0:80")	// Change to fit your needs ("hides" from other devices on network)
 			break
 		default:
-			router.Run("localhost:80")	// Change to fit your needs (does not hide from other devices on network)
+			router.Run("localhost:8080")	// Change to fit your needs (does not hide from other devices on network)
 	}
 }
 
