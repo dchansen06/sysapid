@@ -1,0 +1,12 @@
+[Unit]
+Description=SYSAPID Program
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+#ExecStart=/path/to/sysapid  # Configure as needed
+KillSignal=SIGINT
+
+[Install]
+WantedBy=multi-user.target
