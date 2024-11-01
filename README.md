@@ -5,7 +5,7 @@ It is highly recommended to fork and modify the program to deliver the informati
 
 The syntax in the files is fairly straightforward, just add any new commands or other lines as you would expect. Make sure that all relevant binaries are installed as needed.
 
-You may need to install [sensors(1)](https://linux.die.net/man/1/sensors) https://help.ubuntu.com/community/SensorInstallHowto if that is your preferred method of collecting temperature data.
+You may need to install [sensors(1)](https://linux.die.net/man/1/sensors) see [this](https://help.ubuntu.com/community/SensorInstallHowto) for more information if that is your preferred method of collecting temperature data.
 
 Note: As of now I do not know of any reliable method to get temperature data on Windows.
 
