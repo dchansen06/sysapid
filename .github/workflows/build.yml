@@ -20,5 +20,5 @@ jobs:
         go-version: '1.18'
     - name: Get
       run: go get github.com/gin-gonic/gin@latest
-    - name: Make
-      run: make
+    - name: Build
+      run: go build
