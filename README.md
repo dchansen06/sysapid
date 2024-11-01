@@ -1,3 +1,4 @@
+[![Build](https://github.com/dchansen06/sysapid/actions/workflows/build.yml/badge.svg)](https://github.com/dchansen06/sysapid/actions/workflows/build.yml)
 # sysapid
 Delivers compact JSON information so that you can integrate it into your local web apps
 
