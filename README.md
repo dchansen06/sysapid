@@ -11,3 +11,8 @@ Note: As of now I do not know of any reliable method to get temperature data on 
 
 ## Security
 This program connects to the network. Do not use on the open internet or on a network where anyone but you can access it. Use this program at your own risk and discretion.
+
+## systemD
+Should you want to allow controlling the file with the various C programs, setup the `sysapid.service` job unit file with the correct path and move it to `/etc/systemd/system/sysapid.service`
+
+See [systemd](https://wiki.debian.org/systemd) or [systemd(1)](https://man7.org/linux/man-pages/man1/systemd.1.html) for more information
