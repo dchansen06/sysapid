@@ -12,6 +12,15 @@ Note: As of now I do not know of any reliable method to get temperature data on 
 
 Access it by navigating to [http://HOSTNAME:PORT](http://localhost:8080), add `?fast=LABEL` (such as "cpu" to only retrieve one of the elements to be slightly quicker
 
+## Installation
+Install golang-go, then run:
+
+```$ go get github.com/gin-gonic/gin```
+
+```$ go install sysapid.go```
+
+It will be installed into the default directory by your GOENV
+
 ## Security
 This program connects to the network. Do not use on the open internet or on a network where anyone but you can access it. Use this program at your own risk and discretion.
 
