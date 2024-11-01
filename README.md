@@ -19,7 +19,7 @@ Install golang-go, then run:
 
 ```$ go install sysapid.go```
 
-It will be installed into the default directory by your GOENV
+It will be installed into the default directory by your [GOENV](https://go.dev/doc/tutorial/compile-install)
 
 ## Security
 This program connects to the network. Do not use on the open internet or on a network where anyone but you can access it. Use this program at your own risk and discretion.
